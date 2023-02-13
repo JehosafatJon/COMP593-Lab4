@@ -11,7 +11,10 @@
             "program": "${file}",
             "console": "integratedTerminal",
             "justMyCode": true,
-            "args": ["C:\\Users\\Jonny\\OneDrive\\Documents\\GitHub\\Lab 2\\COMP593-Lab4\\gateway.log"]
+            "args": ["C:\\Users\\pornmachine\\Documents\\GitHub\\COMP593-Lab4\\gateway.log"]
+            // EASTER EGG: if you're reading this Jeremy, dont judge me for my computer's user name XD
+            // when i built this computer i was joking around and said this machine is so powerful,
+            // but it's all gonna be used for HD porn, hence, pornmachine! hahaha :S
         }
     ]
 }

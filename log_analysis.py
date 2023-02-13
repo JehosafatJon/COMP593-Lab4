@@ -3,10 +3,9 @@ import os
 import re
 
 def main():
-
     pass
 
-# TODO: Step 3
+#  Step 3
 def get_log_file_path_from_cmd_line():
     """Gets a filepath of a log file from the command line parameters.
 
@@ -22,7 +21,7 @@ def get_log_file_path_from_cmd_line():
     else:
         return os.path.abspath(argv[1])
 
-# TODO: Steps 4-7
+#  Steps 4-7
 def filter_log_by_regex(log_file, regex, ignore_case=True, print_summary=False, print_records=False):
     """Gets a list of records in a log file that match a specified regex.
 
