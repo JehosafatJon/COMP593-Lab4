@@ -89,10 +89,10 @@ def generate_source_ip_log(log_file, ip_address):
         ip_address (str): The IP address to filter and generate the log for
     """
     
-    regex = f'(.*SRC={ip_address}.*)'
+    regex = f'SRC={ip_address}'
     underscored_ip_address = re.sub(r"\.", "_", ip_address)
 
-    ip_records = filter_log_by_regex(log_file, regex)[1]
+    ip_records = filter_log_by_regex(log_file, regex)[0]
     report_df = pd.DataFrame(ip_records)
     report_df.to_csv(f"source_ip_{underscored_ip_address}.log",  index=False, header=None)
     return
